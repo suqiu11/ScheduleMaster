@@ -141,7 +141,7 @@ gradlew.bat assembleDebug   # Windows
 | 版本 | 说明 |
 |------|------|
 | v1.2.1 | 修复后台定时无法打开 App；改用 setAlarmClock + 前台派发服务 |
-| v1.2.0 | 支持同一包名多个 LAUNCHER 入口（如斩星魔剑-自动定位） |
+| v1.2.0 | 支持同一包名多个 LAUNCHER 入口 |
 | v1.0.0 | 初始版本 |
 
 ---
