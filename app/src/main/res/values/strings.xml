@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScheduleMaster</string>
+    <string name="empty_tasks">暂无任务，点击右下角 + 添加</string>
+    <string name="add_task">添加任务</string>
+    <string name="delete">删除</string>
+    <string name="task_name_hint">任务名称（可选）</string>
+    <string name="target_app">目标 App</string>
+    <string name="not_selected">未选择</string>
+    <string name="pick_app">选择 App</string>
+    <string name="trigger_time">触发时间（基准）</string>
+    <string name="pick_time">设置时间</string>
+    <string name="repeat_days">重复星期</string>
+    <string name="random_delay">随机延时（分钟）</string>
+    <string name="random_delay_hint">实际执行 = 基准时间 + [最小, 最大] 内随机分钟数</string>
+    <string name="min_delay">最小延时</string>
+    <string name="max_delay">最大延时</string>
+    <string name="test_run">立即测试运行</string>
+    <string name="save">保存</string>
+    <string name="search_app">搜索 App 名称或包名</string>
+    <string name="app_icon">应用图标</string>
+    <string name="notification_channel_name">定时唤起服务</string>
+    <string name="notification_channel_desc">保持后台运行以确保定时任务不被系统清理</string>
+    <string name="notification_title">定时唤起服务运行中</string>
+    <string name="notification_text">正在监控定时任务，点击可打开应用</string>
+    <string name="notification_stop">停止服务</string>
+    <string name="launch_channel_name">ScheduleMaster 提醒</string>
+    <string name="launch_channel_desc">到点时全屏提醒并打开目标 App</string>
+    <string name="launch_notification_title">定时任务触发</string>
+    <string name="launch_notification_text">正在打开目标 App…</string>
+    <string name="launch_notification_text_for">正在打开 %1$s…</string>
+    <string name="permission_full_screen_title">需要全屏通知权限</string>
+    <string name="permission_full_screen_message">Android 14+ 需允许「全屏通知」，否则息屏时可能无法自动打开 App。请在系统设置中开启。</string>
+    <string name="permission_miui_hint">小米/红米手机还需在应用详情中开启：自启动、无限制省电、后台弹出界面。</string>
+    <string name="schedule_failed">闹钟注册失败，请检查「闹钟与提醒」权限</string>
+</resources>
